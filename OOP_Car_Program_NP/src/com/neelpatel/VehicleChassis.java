@@ -26,16 +26,16 @@ public class VehicleChassis implements Chassis {
 
   @Override
   public Chassis getChassisType() {
-    return new VehicleChassis();
+    return this;
   }
 
   @Override
   public void setChassisType(String vehicleChassis) {
-    chassisName = vehicleChassis;
+    this.chassisName = vehicleChassis;
   }
 
   @Override
   public String toString() {
-    return "Chassis Name : " + chassisName;
+    return "Chassis Name : " + this.chassisName;
   }
 }
