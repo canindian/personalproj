@@ -22,16 +22,4 @@ public VehicleFrame(String vehicleFrameType){
         return "Chassis: " + Chassis.chassis + "\n" + "Vehicle Frame: " + this.vehicleFrameType;
     }
 
-
-
-  public static void main(String[] args) {
-    VehicleFrame vehicleFrame1 = new VehicleFrame();
-    System.out.println(vehicleFrame1);
-
-    // testing overload constructor
-    VehicleFrame vehicleFrame2 = new VehicleFrame("Ladder Frame");
-    System.out.println(vehicleFrame2);
-
-
-  }
 }
