@@ -42,6 +42,13 @@ public class VehicleChassis implements Chassis {
     InteriorFeature interiorFeature2 = new InteriorFeature("Climate Control");
     System.out.println(interiorFeature2);
 
+    System.out.println("-----------------------------------");
+
+    ExteriorFeature exteriorFeature1 = new ExteriorFeature();
+    System.out.println(exteriorFeature1);
+    ExteriorFeature exteriorFeature2 = new ExteriorFeature("Fog Lamps");
+    System.out.println(exteriorFeature2);
+
   }
 //getters and setters
   @Override
