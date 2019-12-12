@@ -18,12 +18,9 @@ public class VehicleChassis implements Chassis {
     System.out.println(vehicleChassis);
     System.out.println(vehicleChassis1);
 
-    VehicleFrame vehicleFrame = new VehicleFrame();
-    System.out.println(vehicleFrame);
-    vehicleFrame.setChassisType("Ladder Frame");
-    System.out.println(vehicleFrame);
-  }
 
+  }
+//getters and setters
   @Override
   public Chassis getChassisType() {
     return this;
@@ -36,6 +33,6 @@ public class VehicleChassis implements Chassis {
 
   @Override
   public String toString() {
-    return "Chassis Name : " + this.chassisName;
+    return "Chassis Name: " + this.chassisName;
   }
 }

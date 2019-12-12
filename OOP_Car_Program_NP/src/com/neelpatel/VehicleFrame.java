@@ -13,16 +13,16 @@ public VehicleFrame(String vehicleFrameType){
     public Chassis getChassisType() {
         return this;
     }
-
+    @Override
+    public void setChassisType(String vehicleFrameType) {
+        this.vehicleFrameType = vehicleFrameType;
+    }
     @Override
     public String toString() {
         return "Chassis: " + Chassis.chassis + "\n" + "Vehicle Frame: " + this.vehicleFrameType;
     }
 
-    @Override
-    public void setChassisType(String vehicleChassis) {
-    this.vehicleFrameType = vehicleFrameType;
-    }
+
 
   public static void main(String[] args) {
     VehicleFrame vehicleFrame1 = new VehicleFrame();
@@ -31,5 +31,7 @@ public VehicleFrame(String vehicleFrameType){
     // testing overload constructor
     VehicleFrame vehicleFrame2 = new VehicleFrame("Ladder Frame");
     System.out.println(vehicleFrame2);
+
+
   }
 }
