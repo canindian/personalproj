@@ -1,6 +1,7 @@
-# personalproj
+# PersonalProj
 -Swift app developement 
 -OOP Car Program 
+-Random programs created from Java MasterClass Udemy Course
 
 Week1 : learned what swift is? Also learned that to test the app, you have to pay Apple to run the program on any apple device.(iphone, ipad or apple watch)
 Week2 : Created my own app called this app is useless. Which has no function. This was to learn how to make the front end of the app. 
@@ -16,3 +17,5 @@ OOP CAR PROGRAM Step 7 : setters and getters and toString() for InteriorFreature
 OOP CAR PROGRAM Step 8 : setters and getters and toString() for ExteriorFreature class that implements interface Features.
 OOP CAR PROGRAM Step 9 :
 OOP CAR PROGRAM Step 10 :
+
+Java MasterClass Udemy Course:
